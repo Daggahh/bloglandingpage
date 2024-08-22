@@ -6,6 +6,7 @@
 body {
     font-family: Figtree;
     width: 100%;
+    min-height: 100vh;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -17,7 +18,7 @@ body {
 .container{
     background-color: white;
     display: flex;
-    margin-top: 40px;
+    margin:auto auto;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 20px;
